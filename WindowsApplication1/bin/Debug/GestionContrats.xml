@@ -1,0 +1,488 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GestionContrats
+</name>
+</assembly>
+<members>
+<member name="T:GestionContrats.ContratDataSet2.Cahier_des_chargesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.ContratDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.Note_des_Reserves_ClientDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.ODSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.Cahier_des_chargesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.ContratRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.Note_des_Reserves_ClientRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.ODSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.Cahier_des_chargesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.ContratRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.Note_des_Reserves_ClientRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2.ODSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2TableAdapters.Cahier_des_chargesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2TableAdapters.ContratTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2TableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2TableAdapters.Note_des_Reserves_ClientTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2TableAdapters.ODSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionContrats.ContratDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionContrats.ContratDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionContrats.ContratDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet2TableAdapters.TableAdapterManager.UpdateAll(GestionContrats.ContratDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.Cahier_des_chargesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.ContratDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.Note_des_Reserves_ClientDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.ODSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.Cahier_des_chargesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.ContratRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.Note_des_Reserves_ClientRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.ODSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.Cahier_des_chargesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.ContratRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.Note_des_Reserves_ClientRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3.ODSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3TableAdapters.Cahier_des_chargesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3TableAdapters.ContratTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3TableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3TableAdapters.Note_des_Reserves_ClientTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3TableAdapters.ODSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionContrats.ContratDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionContrats.ContratDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionContrats.ContratDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet3TableAdapters.TableAdapterManager.UpdateAll(GestionContrats.ContratDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:GestionContrats.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:GestionContrats.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="T:GestionContrats.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.Cahier_des_chargesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.ContratDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.Note_des_Reserves_ClientDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.ODSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.Cahier_des_chargesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.ContratRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.Note_des_Reserves_ClientRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.ODSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.Cahier_des_chargesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.ContratRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.Note_des_Reserves_ClientRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1.ODSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1TableAdapters.Cahier_des_chargesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1TableAdapters.ContratTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1TableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1TableAdapters.Note_des_Reserves_ClientTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1TableAdapters.ODSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionContrats.ContratDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionContrats.ContratDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionContrats.ContratDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionContrats.ContratDataSet1TableAdapters.TableAdapterManager.UpdateAll(GestionContrats.ContratDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.Cahier_des_chargesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.ContratDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.Note_des_Reserves_ClientDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.ODSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.Cahier_des_chargesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.ContratRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.Note_des_Reserves_ClientRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.ODSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.Cahier_des_chargesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.ContratRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.Note_des_Reserves_ClientRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet.ODSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionContrats.ContratDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSetTableAdapters.Cahier_des_chargesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSetTableAdapters.ContratTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSetTableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSetTableAdapters.Note_des_Reserves_ClientTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSetTableAdapters.ODSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionContrats.ContratDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GestionContrats.ContratDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GestionContrats.ContratDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionContrats.ContratDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionContrats.ContratDataSetTableAdapters.TableAdapterManager.UpdateAll(GestionContrats.ContratDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionContrats.ContratDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionContrats.ContratDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionContrats.ContratDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
